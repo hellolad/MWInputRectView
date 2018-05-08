@@ -10,15 +10,3 @@
 4. 使用数组保存UILabel和输入的验证码Code
 5. 通过遍历数组吧Code映射到Label上
 6. 输入完毕之后回调给控制器做下一步处理
-##### 动手实现：
-![image.png](https://upload-images.jianshu.io/upload_images/1786359-6d481a2a5cbcc88f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-该类实现了验证码和支付密码框的主体，所有设置以及绘制都从这里初始化。
-
-![image.png](https://upload-images.jianshu.io/upload_images/1786359-1cc2d32f5e7aed9e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-两个pulich函数可以在控制器里进行主动的获取和删除操作
-
-![image.png](https://upload-images.jianshu.io/upload_images/1786359-d69a26ac81b02c36.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-zip是swift4新加的全局函数。可以实现两个数组中间的映射。
