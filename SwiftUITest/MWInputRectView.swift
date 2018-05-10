@@ -89,6 +89,7 @@ private extension MWInputRectView {
         rectLayer.strokeColor = lineColor.cgColor
         rectLayer.fillColor = nil
         self.layer.addSublayer(rectLayer)
+        rectPath.close()
         
         var index = 1
         let spaceWidth = bounds.width / 6
@@ -102,6 +103,7 @@ private extension MWInputRectView {
             lineLayer.strokeColor = lineColor.cgColor
             lineLayer.fillColor = nil
             self.layer.addSublayer(lineLayer)
+            linePath.close()
             index += 1
         }
     }
